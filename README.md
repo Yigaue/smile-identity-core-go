@@ -1,2 +1,2 @@
-# smile-identity-core-go
+# Smile Identity Go Server Side SDK
 The Unofficial Smile Identity Go Package
