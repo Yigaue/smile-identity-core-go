@@ -1,5 +1,7 @@
 package imagetype
 
+import "errors"
+
 const (
 	SELFIE_FILE           = 0
 	ID_CARD_FILE          = 1
@@ -9,4 +11,8 @@ const (
 	ID_CARD_BACK_FILE     = 5
 	LIVENESS_IMAGE_STRING = 6
 	ID_CARD_BACK_STRING   = 7
+)
+
+var (
+	ErrInvalidImagetype       = errors.New("invalid imagetype")
 )

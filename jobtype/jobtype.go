@@ -1,5 +1,7 @@
 package jobtype
 
+import "errors"
+
 const (
 	BIOMETRIC_KYC                  = 1
 	SMART_SELFIE_AUTHENTICATION    = 2
@@ -11,4 +13,9 @@ const (
 	UPDATE_PHOTO                   = 8
 	COMPARE_USER_INFO              = 9
 	ENHANCED_DOCUMENT_VERIFICATION = 11
+)
+
+
+var (
+	ErrInvalidJobtype       = errors.New("invalid jobtype")
 )

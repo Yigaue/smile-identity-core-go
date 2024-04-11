@@ -2,7 +2,7 @@
 
 ## Issue Reporting
 
-Before you create a new issue, please ensure that a similar issue does not already exist or has been recently resolved. You can check the status [open issues](https://github.com/Yigaue/smile-identity-core-go/issues?state=open) or [close issues](github.com/Yigaue/smile-identity-core-go/issues?direction=desc&page=1&sort=updated&state=closed).
+Before you create a new issue, please ensure that a similar issue does not already exist or has been recently resolved. You can check the status [open issues](https://github.com/Yigaue/smile-identity-core-go/issues?state=open) or [close issues](https://github.com/Yigaue/smile-identity-core-go/issues?direction=desc&page=1&sort=updated&state=closed).
 
 ## Code Contribution
 
